@@ -1,2 +1,3 @@
 # 7Days7Projects
- Projetos em HTML, CSS e JavaScript
+ Pequenos projetos em HTML, CSS e JavaScript.
+ Inspirado no desafio #100Dyas100Project.
