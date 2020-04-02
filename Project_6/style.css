@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.left {
+    width: 50%;
+    height: 100vh;
+    background: url("air-force-1.png") no-repeat;
+    background-attachment: fixed;
+    background-size: 100vh auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.right {
+    width: 50%;
+    height: 100vh;
+    background-color: black;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu ul li {
+    margin: 0px 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 13px;   
+}
+
+.menu a {
+    color: wheat;       
+}
+
+.product-name {
+    position: absolute;
+    left: 75%;
+    top: 30%;
+    transform: translate(-50%, -30%);
+}
+
+.product-name h1 {
+    letter-spacing: 0px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 50PX;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: wheat;
+}
+
+.product-name h1:hover {
+    transform: scale(1.1);
+    transition: 1s all;
+}
+
+.footer-heading {
+    display: flex;
+    color: wheat;
+    align-items: center;
+    height: 40px;      
+}
+
+.footer-heading h2 {
+    margin-right: 10px;
+}
+
+.footer-heading h3 {
+    margin-left: 10px;
+}
+
+.footer-heading ul {
+    display: flex;
+}
+
+.footer-heading ul li {
+    border: 2px solid white;
+    width: 40px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    color: wheat;
+    margin: 0px 10px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 13px;   
+}
+
+.footer-heading ul li:hover {
+    border: 2px solid black;
+}
+
+.footer-heading a {
+    color: wheat;
+    font-size: 15px;       
+}
+
+.footer {
+    position: absolute;
+    padding: 0px;
+    box-sizing: border-box;
+    left: 70%;
+    top: 75%;
+    transform: translate(-50%, -60%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footer p {
+    color: wheat;
+}

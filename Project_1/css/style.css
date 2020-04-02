@@ -1,0 +1,51 @@
+body {
+  background-color: blueviolet;
+}
+
+article {
+  max-width: 15rem;
+}
+
+.titulo_logo {
+  text-align: center;
+  margin: 20px;
+}
+
+.titulo_logo:hover {
+  color: yellow;
+  transition: 1s all;
+  transform: scale(1.5);
+}
+
+.card-cor-bulbasaur {
+  background-color: darkcyan;  
+}
+
+.card-cor-bulbasaur:hover {
+  transition: 2s all;
+  transform: rotate(360deg) scale(1.1);
+}
+
+.card-cor-charmander {
+  background-color: darkred;
+}
+
+.card-cor-charmander:hover {
+  transition: 2s all;
+  transform: rotate(360deg) scale(1.1);
+}
+
+.card-cor-squirtle {
+  background-color: blue;
+}
+
+.card-cor-squirtle:hover {
+  transition: 2s all;
+  transform: rotate(360deg) scale(1.1);
+}
+
+.altura-imagem {
+  height: 250px;
+}
+
+

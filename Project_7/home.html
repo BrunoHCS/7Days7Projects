@@ -1,0 +1,46 @@
+<html>
+    
+  <head>
+
+    <title>Google Chart</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+
+        var data = google.visualization.arrayToDataTable([
+          ['Task', 'Hours per Day'],
+          ['Work',     20],
+          ['Eat',      4.5],
+          ['Transport',  7],
+          ['Larning', 4.5],
+          ['Sleep',    15]
+        ]);
+
+        var options = {
+          title: 'My Daily Activities'
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+
+        chart.draw(data, options);
+      }
+    </script>
+
+  </head>
+
+  <body>
+
+    <h1>Using Google Chart - Pie Chart</h1>
+    <div id="piechart" class="chart"></div>
+
+  </body>
+
+</html>

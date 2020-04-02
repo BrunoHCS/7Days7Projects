@@ -1,0 +1,31 @@
+body {
+    background: black
+}
+
+#text {
+    text-align: center;
+    font-size: 100px;
+    background: -webkit-linear-gradient(blue, rgb(0, 247, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Cute Font', cursive;   
+}
+
+#text:hover {
+    transform: scale(1.1);
+    transition: 1s all;
+}
+
+#clock {
+    text-align: center;
+    font-size: 100px;
+    background: -webkit-linear-gradient(blue, rgb(0, 247, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Cute Font', cursive;
+}
+
+#clock:hover {
+    transform: scale(1.1);
+    transition: 1s all;
+}
